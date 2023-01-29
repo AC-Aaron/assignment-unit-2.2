@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Declared a variable called 'name' and set its value to 'Dane'
+// Set a conditional where if 'name' is equal to 'Mary' we console.log "Hi, Mary!", but if name is NOT equal to 'Mary',
+// then we console.log "How do you do?"
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declare a variable called 'secret' but leave its value as undefined
+// Declare a variable called 'code' and set its value as 123
+// set a conditional where if 'code' is equal to 123, variable 'secret'='super and code=code multiplied by 2
+//another conditional where if code is greater than 250, it changes the value of variable 'secret' to 'duper'
+//we console.log secret
 
 //CODE
 /*
@@ -70,10 +71,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// declare a boolean variable called 'isStudent' and set its value as true, 
+// declare a variable called 'age' and set its value as '34'
+// declare a variable called 'zip' and set its value as '55407'
+//set conditional where if 'isStudent'=true AND 'zip' is greater than 80000, then we console.log "You're a student"
+//on the West Coast!' but if not, then it checks if 'isStudent' is false OR if the 'age' variable is less than 30
+//, in which case if one of those is true, then it console.logs "what are your hobbies?"
+//but if neither of those are true, it will then check check if 'isStudent' boolean is true, and if it is, then 
+//it will console.log 'welcome to Prime!', however, if the isStudent is not false, then it will console.log
+//"how about the weather?"
+
+
 
 //CODE
 /*
