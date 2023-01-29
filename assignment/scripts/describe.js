@@ -137,6 +137,11 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+//colorOne is actually set to 'red'
+//colorTwo is actually set to 'blue
+// in the code if mix===true, then colorOne = 'purple, but the part of the code to set
+//colorTwo to 'purple' is missing.
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -151,6 +156,12 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+//First thing I noticed on this one is that the time is not set as a variable,
+//but rather a constant, which makes it unable to change, which creates a problem for the 
+//conditional portion. The second issue is that the current conditional is not checking to see if temp
+// AND time, but rather it is checking to see if temp OR time in which case the console.log will 
+//always log 'throw away the food so long as one of the conditions is true. 
+
 /*
 let temp = 40;
 const time = 4;
@@ -163,6 +174,9 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+//The problem here is that 'minAge' should be greater than or equal to 'age', whereas
+//currently it is set as less than or equal to 'age'. 
 
 /*
 let age = 21;
